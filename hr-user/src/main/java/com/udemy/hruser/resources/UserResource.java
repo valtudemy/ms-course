@@ -13,7 +13,7 @@ import com.udemy.hruser.repositories.UserRepository;
 
 @RestController
 @RequestMapping(value = "users")
-public class UserResources {
+public class UserResource {
 	
 	@Autowired
 	private UserRepository repository;
